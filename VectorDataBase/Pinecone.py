@@ -20,9 +20,9 @@ import time
 
 #--------GLOBAL VARIABLES--------
 #Initialize connection with the Pinecone client using your OWN API key
-PINECONE_API_KEY="YOUR-API-KEY"
+PINECONE_API_KEY="your_api_key"
 
-pc = Pinecone(api_key="YOUR-API-KEY")
+pc = Pinecone(api_key="your_api_key")
 
 #define your index name of the index we will work with
 index_name = "quickstart"
